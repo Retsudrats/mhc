@@ -11,8 +11,8 @@ i = 0;
 
 //Druid talents
 nltalent[i] = ["Nature's Blessing"]; i++;
-nltalent[i] = ["Genesis"]; i++;
-nltalent[i] = ["Moonglow"]; i++;
+nltalent[i] = ["Abundant Growth"]; i++;
+nltalent[i] = ["Conjuration"]; i++;
 nltalent[i] = ["Nature's Mastery"]; i++;
 nltalent[i] = ["Improved Moonfire"]; i++;
 nltalent[i] = ["Brambles"]; i++;
