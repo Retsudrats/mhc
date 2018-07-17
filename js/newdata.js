@@ -15,8 +15,8 @@ i = 0;
 
 //Druid Talents
 talent[i] = [0, "Nature's Blessing", 3, 1, 1]; i++;
-talent[i] = [0, "Genesis", 3, 2, 1]; i++;
-talent[i] = [0, "Moonglow", 5, 4, 1]; i++;
+talent[i] = [0, "Abundant Growth", 3, 2, 1]; i++;
+talent[i] = [0, "Conjuration", 5, 4, 1]; i++;
 talent[i] = [0, "Nature's Majesty", 3, 1, 2]; i++;
 talent[i] = [0, "Improved Moonfire", 3, 2, 2]; i++;
 talent[i] = [0, "Brambles", 3, 3, 2]; i++;
@@ -82,7 +82,7 @@ i = 0;
 
 //Balance Talents Begin---------------------------------------------------------------
 
-//Starlight Wrath - Balance 
+//Nature's Blessing
 rank[i] = [
 "Increase Renew's duration by 1 second.",
 "Increase Renew's duration by 2 second.",
