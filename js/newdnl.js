@@ -3,9 +3,9 @@ var t = 0;
 var nlclass = "class";
 var nlclassPatch = "class";
 
-nltree[i] = "Druid"; i++;
-nltree[i] = "Priest"; i++;
-nltree[i] = "Occultist"; i++;
+nltree[i] = "druid"; i++;
+nltree[i] = "priest"; i++;
+nltree[i] = "occultist"; i++;
 
 i = 0;
 
