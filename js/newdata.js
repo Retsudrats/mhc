@@ -3,9 +3,9 @@ var t = 0;
 var className = "class Talents";
 var talentPath = "/info/basics/talents/";
 
-tree[i] = "Druid"; i++;
-tree[i] = "Priest"; i++;
-tree[i] = "Occultist"; i++;
+tree[i] = "druid"; i++;
+tree[i] = "priest"; i++;
+tree[i] = "occultist"; i++;
 
 i = 0;
 
