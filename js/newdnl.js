@@ -9,8 +9,8 @@ nltree[i] = "Occultist"; i++;
 
 i = 0;
 
-//balance talents
-nltalent[i] = ["Starlight Wrath"]; i++;
+//Druid talents
+nltalent[i] = ["Nature's Blessing"]; i++;
 nltalent[i] = ["Genesis"]; i++;
 nltalent[i] = ["Moonglow"]; i++;
 nltalent[i] = ["Nature's Mastery"]; i++;

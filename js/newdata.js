@@ -13,8 +13,8 @@ i = 0;
 //horizontal position
 //vertical position
 
-//Balance Talents
-talent[i] = [0, "Starlight Wrath", 3, 1, 1]; i++;
+//Druid Talents
+talent[i] = [0, "Nature's Blessing", 3, 1, 1]; i++;
 talent[i] = [0, "Genesis", 3, 2, 1]; i++;
 talent[i] = [0, "Moonglow", 5, 4, 1]; i++;
 talent[i] = [0, "Nature's Majesty", 3, 1, 2]; i++;
@@ -84,11 +84,9 @@ i = 0;
 
 //Starlight Wrath - Balance 
 rank[i] = [
-"Reduces the cast time of your Wrath and Starfire spells by 0.1 sec.",
-"Reduces the cast time of your Wrath and Starfire spells by 0.2 sec.",
-"Reduces the cast time of your Wrath and Starfire spells by 0.3 sec.",
-"Reduces the cast time of your Wrath and Starfire spells by 0.4 sec.",
-"Reduces the cast time of your Wrath and Starfire spells by 0.5 sec."
+"Increase Renew's duration by 1 second.",
+"Increase Renew's duration by 2 second.",
+"Increase Renew's duration by 3 second."
 		];
 i++;
 
