@@ -17,9 +17,9 @@ maxTierArray[3] = 1;
 
 var template = new Array();
 
-var levelMax = 45;
+var levelMax = 999;
 var levelMin = 2;
-var tierNum = 5;
+var tierNum = 7;
 
 var rankPoints = levelMax - levelMin + 1;
 var rankPointsMax = rankPoints;
