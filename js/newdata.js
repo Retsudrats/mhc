@@ -14,7 +14,7 @@ i = 0;
 //vertical position
 
 //Druid Talents
-talent[i] = [0, "Nature's Blessing", 99, 1, 1]; i++;
+talent[i] = [0, "Nature's Blessing", 5, 1, 1]; i++;
 talent[i] = [0, "Abundant Growth", 3, 2, 1]; i++;
 talent[i] = [0, "Conjuration", 5, 4, 1]; i++;
 talent[i] = [0, "Nature's Majesty", 3, 1, 2]; i++;
@@ -29,8 +29,8 @@ talent[i] = [0, "Lunar Guidance", 3, 3, 4]; i++;
 talent[i] = [0, "Insect Swarm", 3, 4, 4]; i++;
 talent[i] = [0, "Improved Insect Swarm", 3, 1, 5,]; i++;
 talent[i] = [0, "Dreamstate", 3, 2, 5]; i++;
-talent[i] = [0, "Moonfury", 3, 3, 5]; i++;
-talent[i] = [0, "Balance of Power", 3, 4, 5]; i++;
+talent[i] = [0, "Moonfury", 3, 3, 6]; i++;
+talent[i] = [0, "Balance of Power", 3, 4, 7]; i++;
 treeStartStop[t] = i -1;
 t++;
 
@@ -50,8 +50,8 @@ talent[i] = [1, "Primal Precision", 3, 2, 4,]; i++;
 talent[i] = [1, "Brutal Impact", 3, 3, 4]; i++;
 talent[i] = [1, "Feral Charge", 3, 1, 5]; i++;
 talent[i] = [1, "Nurturing Instinct", 3, 2, 5]; i++;
-talent[i] = [1, "Natural Reaction", 3, 3, 5]; i++;
-talent[i] = [1, "Heart of the Wild", 3, 4, 5]; i++;
+talent[i] = [1, "Natural Reaction", 3, 3, 6]; i++;
+talent[i] = [1, "Heart of the Wild", 3, 4, 7]; i++;
 treeStartStop[t] = i -1;
 t++;
 
@@ -71,8 +71,8 @@ talent[i] = [2, "Nature's Swiftness", 3, 3, 4]; i++;
 talent[i] = [2, "Gift of Nature", 3, 4, 4]; i++;
 talent[i] = [2, "Improved Tranquility", 3, 1, 5]; i++;
 talent[i] = [2, "Empowered Touch", 3, 2, 5]; i++;
-talent[i] = [2, "Improved Regrowth", 3, 3, 5]; i++;
-talent[i] = [2, "Living Spirit", 3, 4, 5]; i++;
+talent[i] = [2, "Improved Regrowth", 3, 3, 6]; i++;
+talent[i] = [2, "Living Spirit", 3, 4, 7]; i++;
 
 treeStartStop[t] = i -1;
 t++;
@@ -85,6 +85,12 @@ i = 0;
 //Nature's Blessing
 rank[i] = [
 "Increase Renew's duration by 1 second.",
+"Increase Renew's duration by 2 second.",
+"Increase Renew's duration by 3 second.",
+"Increase Renew's duration by 2 second.",
+"Increase Renew's duration by 3 second.",
+"Increase Renew's duration by 2 second.",
+"Increase Renew's duration by 3 second.",
 "Increase Renew's duration by 2 second.",
 "Increase Renew's duration by 3 second."
 		];
