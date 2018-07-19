@@ -107,7 +107,7 @@ function canUnlearn(talentID, clickLeftRight, maxTier) {
 		var theCurrentRank = rankTop[talentID][0];
 		if (theCurrentRank < maxRank) {
 
-			necessaryPoints = (talent[talentID][4] - 1) * 0;
+			necessaryPoints = (talent[talentID][4] - 1) * 5;
 			if (treePoints < necessaryPoints)
 				return false;
 		
@@ -132,7 +132,7 @@ function canUnlearn(talentID, clickLeftRight, maxTier) {
 
 			for (var thisTier = talent[talentID][4]; thisTier < maxTier; maxTier--) {
 
-				necessaryPoints = (maxTier-1) *0;		
+				necessaryPoints = (maxTier-1) *5;		
 				projectedPoints -= pointsTier[treeID][maxTier-1];
 				if (projectedPoints < necessaryPoints)
 					return false;
@@ -198,7 +198,7 @@ function canTurnGreen(totalPoints, tree, oldMaxTier) {
 	
 		thisTier = talent[i][4];
 
-		necessaryPoints = (thisTier-1) * 4;
+		necessaryPoints = (thisTier-1) * 5;
 
 		if (thisTier <= oldMaxTier+3 || necessaryPoints <= totalPoints){	
 
@@ -345,49 +345,10 @@ function changeCopyURL(){
 	for (i = 0; talent[i]; i++) {
 		templateString = templateString + rankTop[i][0]
 	}
-	
-	shortenURL(templateString);
-	
+
+    document.getElementById('copyURL').innerHTML = templateString;	
+
 }
-
-function shortenURL(templateString) {
-
-var shortenedURL = [];
-var prevChar, numRepeatedChar, i;
-
-for (numRepeatedChar = 1, prevChar = templateString[0], i = 1; i < templateString.length; i++) {
-
-  if (numRepeatedChar >= 255) {
-    hexConvNRC = numRepeatedChar.toString(16);
-    shortenedURL.push(["-", hexConvNRC, prevChar]);
-    numRepeatedChar = 1;
-    prevChar = templateString[i];
-  } else if ((templateString[i] != prevChar) && (numRepeatedChar <= 4)) {
-    for (j = numRepeatedChar; j > 0; j--) {
-      shortenedURL.push([prevChar]);
-    }
-    numRepeatedChar = 1;
-    prevChar = templateString[i];
-  } else if (templateString[i] != prevChar) {
-    hexConvNRC = numRepeatedChar.toString(16);
-    if (numRepeatedChar < 15) {
-      shortenedURL.push(["-", "0", hexConvNRC, prevChar]);
-    } else
-      shortenedURL.push(["-", hexConvNRC, prevChar]);
-    numRepeatedChar = 1;
-    prevChar = templateString[i];
-  } else
-    numRepeatedChar++;
-}
-
-hexConvNRC = numRepeatedChar.toString(16);
-numRepeatedChar = numRepeatedChar > 15 ? "" + hexConvNRC : "0" + hexConvNRC
-shortenedURL.push(["-", hexConvNRC, prevChar]);
-shortenedURL = shortenedURL.toString().replace(/,/g, '');
-
-document.getElementById('copyURL').innerHTML = shortenedURL;  
-}
-
 
 function rankTopOnRightClick(talentID) {
 

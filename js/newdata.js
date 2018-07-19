@@ -14,8 +14,8 @@ i = 0;
 //vertical position
 
 //Druid Talents
-talent[i] = [0, "Nature's Blessing", 5, 1, 1]; i++;
-talent[i] = [0, "Abundant Growth", 3, 2, 1]; i++;
+talent[i] = [0, "Nature's Blessing", 9, 1, 1]; i++;
+talent[i] = [0, "Abundant Growth", 9, 2, 1]; i++;
 talent[i] = [0, "Conjuration", 5, 4, 1]; i++;
 talent[i] = [0, "Nature's Majesty", 3, 1, 2]; i++;
 talent[i] = [0, "Improved Moonfire", 3, 2, 2]; i++;
